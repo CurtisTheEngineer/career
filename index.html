@@ -210,6 +210,18 @@
           title: "Leverage Your Language Skills",
           category: "Job Application",
           content: "If you are multi-lingual, create different versions of your resume written in the languages you know. This is a significant advantage, especially when applying for international or global-facing roles."
+        },
+        {
+          id: 19,
+          title: "Cultivate a Growth Mindset",
+          category: "Career Growth",
+          content: "Embrace challenges, persist through setbacks, and see effort as a path to mastery. Believing you can develop your abilities (a growth mindset) is key to long-term success."
+        },
+        {
+          id: 20,
+          title: "Volunteer for Strategic Exposure",
+          category: "Career Growth",
+          content: "Consider volunteering for different types of work or cross-departmental projects. This can provide valuable exposure to other parts of the business and demonstrate your initiative."
         }
       ];
 
@@ -219,7 +231,7 @@
       // --- STYLING HELPER ---
       const categoryColors = {
         "Job Application": { colors: "bg-blue-100 text-blue-800", emoji: "📄 👨🏿‍🦱 📄" },
-        "Networking": { colors: "bg-green-100 text-green-800", emoji: "👩🏾‍🦱 🤝🏿 👨🏿‍🦱" },
+        "Networking": { colors: "bg-green-100 text-green-800", emoji: "👩🏾‍🦱 🤝🏿 👨🏿‍D" },
         "Interviewing": { colors: "bg-indigo-100 text-indigo-800", emoji: "🎤 👨🏿‍🦱 👍🏿" },
         "Career Growth": { colors: "bg-amber-100 text-amber-800", emoji: "📈 👩🏾‍🦱 📈" },
         "Performance": { colors: "bg-pink-100 text-pink-800", emoji: "🏆 👩🏾‍🦱 🏆" },
@@ -305,7 +317,7 @@
           }
           
           if (isActive) {
-            btn.classList.add(...activeClass.split(' '));
+            btn.classList.Add(...activeClass.split(' '));
             btn.classList.remove(...inactiveClass.split(' '));
           } else {
             btn.classList.add(...inactiveClass.split(' '));
