@@ -186,8 +186,35 @@
           title: "Prioritize Your Local Job Search",
           category: "Job Application",
           content: "Begin your search by applying to local jobs. Companies often view local candidates favorably as it simplifies commutes and eliminates the need for relocation assistance, which can be a hiring advantage for you."
+        },
+        {
+          id: 15,
+          title: "Reverse-Engineer Your Dream Job",
+          category: "Career Planning",
+          content: "Find several job postings for your dream role. Analyze the required skills, education, and years of experience. Use this as a blueprint to build a clear plan and identify any skill gaps you need to fill."
+        },
+        {
+          id: 16,
+          title: "Conduct Informational Interviews",
+          category: "Networking",
+          content: "Do you know someone who works in your target industry? Reach out and ask them for a brief chat about their experience. This provides invaluable insights and expands your professional network."
+        },
+        {
+          id: 17,
+          title: "Explore Diverse Job Sectors",
+          category: "Job Application",
+          content: "Broaden your search beyond the private sector. Consider applying for roles in non-profits, state or federal government, and even international positions, which often offer unique experiences and stability."
+        },
+        {
+          id: 18,
+          title: "Leverage Your Language Skills",
+          category: "Job Application",
+          content: "If you are multi-lingual, create different versions of your resume written in the languages you know. This is a significant advantage, especially when applying for international or global-facing roles."
         }
       ];
+
+      // Sort the tips alphabetically by title by default
+      careerTips.sort((a, b) => a.title.localeCompare(b.title));
 
       // --- STYLING HELPER ---
       const categoryColors = {
@@ -330,5 +357,7 @@
   </script>
 </body>
 </html>
+
+
 
 
